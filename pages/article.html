@@ -1,0 +1,90 @@
+<html>
+<head>
+  <title>Article Page</title>
+  <style>
+  body{
+    width: 480px;
+    margin:20px auto;
+    font-family: sans-serif;
+  }
+  h2{
+    font-size: 39px;
+    line-height: 1em;
+  }
+  a{
+    color: #276056;
+  }
+  article img {
+    float: left;
+    margin-right: 25px;
+  }
+  article h2{
+    margin-top:0px;
+  }
+  .meta{
+    padding: 0;
+    margin-top: 0;
+  }
+  .meta a{
+    font-style: italic;
+    font-size: 14px;
+  }
+  .meta li:after{
+    content: '\\';
+    padding: 0 5px;
+  }
+  .meta li{
+    display: inline;
+  }
+  .meta li:last-child:after{
+    content:'';
+  }
+  .preview{
+    float: right;
+    background: white;
+    width: 350px;
+  }
+  .post_info{
+    background: #f3f3f3;
+    color:#999;
+  }
+  .post_info a{
+  text-decoration: none;
+  }
+  .post_info a:hover{
+    color: black;
+  }
+  .content{
+    clear: both;
+  }
+  </style>
+</head>
+<body >
+  <article class="">
+    <img src="../images/1.jpg" width="100px" height= alt="icon" />
+    <div class="preview">
+
+
+      <ul class='meta'>
+        <li><a href="#">Article</a></li>
+        <li><a href="#">Digithon</a></li>
+      </ul>
+      <h2>This is a really interesting article</h2>
+      <p class="post_info"><a href="#">Shrinivas Kamath</a>
+        <a href="#">On 20 Jan 2016 with</a>
+        <a href="#">101 Comments</a>
+
+      </p>
+      <div class="content">
+        <p>
+          This validator checks the markup validity of Web documents in HTML, XHTML, SMIL, MathML, etc. If you wish to validate specific content such as RSS/Atom feeds or CSS stylesheets, MobileOK content, or to find broken links, there are other validators and tools available.
+        </p>
+        <p>
+           If you wish to validate specific content such as RSS/Atom feeds or CSS stylesheets, MobileOK content, or to find broken links, there are other validators and tools available. As an alternative you can also try our non-DTD-based validator.
+        </p>
+      </div>
+      <a href="#">Read more...</a>
+    </div>
+  </article>
+</body>
+</html>
